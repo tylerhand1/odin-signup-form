@@ -49,7 +49,7 @@ a:hover {
     align-items: center;
     gap: 16px;
 
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .logo-img {
@@ -77,13 +77,17 @@ a:hover {
 }
 
 .signup-prompt h2 {
-    width: 933px;
+    width: 60%;
     font-size: 24px;
     line-height: 32px;
 }
 
+main {
+    width: 100%;
+}
+
 .form-content {
-    width: 66vw;
+    width: 100%;
     padding: 32px;
     display: flex;
     flex-direction: column;
@@ -108,8 +112,13 @@ a:hover {
     border-radius: 5px;
 }
 
+.form-content input:focus {
+    outline: none;
+    border: 1px solid #f1c40f;
+}
+
 .form-row {
-    width: 933px;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
