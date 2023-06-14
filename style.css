@@ -2,4 +2,73 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    background-color: #2d3436;
+    color: #ecf0f1;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.picture {
+    position: relative;
+    text-align: center;
+}
+
+.market-img {
+    height: 100vh;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    padding: 24px 0;
+    margin-top: 45%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    font-size: 14px;
+}
+
+.logo-img {
+    height: 82px;
+}
+
+.credit {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+        
+    width: 100%;
+    padding-bottom: 16px;
+    color: #ecf0f1;
+}
+
+.signup-prompt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    padding: 32px;
+    margin-top: 130px;
+}
+
+.signup-prompt h2 {
 }
