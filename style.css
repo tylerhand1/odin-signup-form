@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+    overflow-y: none;
 }
 
 html, body {
@@ -17,6 +18,10 @@ body {
 
 a {
     text-decoration: none;
+    color: #2980b9;
+}
+
+a:hover {
     color: #3498db;
 }
 
@@ -67,8 +72,87 @@ a {
     justify-content: center;
     gap: 32px;
     padding: 32px;
-    margin-top: 130px;
+    margin-top: 120px;
+    margin-bottom: 20px;
 }
 
 .signup-prompt h2 {
+    width: 933px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.form-content {
+    width: 66vw;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #636e72;
+    box-shadow: 0 10px 20px -16px #ecf0f1;
+}
+
+.form-content h3 {
+    font-size: 24px;
+}
+
+.form-content label {
+    font-size: 18px;
+}
+
+.form-content input {
+    width: 280px;
+    line-height: 28px;
+    padding-left: 8px;
+    border: 1px solid #b2bec3;
+    border-radius: 5px;
+}
+
+.form-row {
+    width: 933px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-btn {
+    padding: 32px;
+}
+
+.form-btn button {
+    padding: 16px 32px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid #f1c40f;
+    border-radius: 5px;
+    color: #f1c40f;
+    background-color: #2d3436;
+    cursor: pointer;
+}
+
+.form-btn button:hover {
+    background-color: #f1c40f;
+    color: #ecf0f1;
+}
+
+.login {
+    padding-left: 32px;
+    display: flex;
+    gap: 8px;
+    font-size: 18px;
+}
+
+.login a {
+    color: #f1c40f;
+    font-weight: bold;
+}
+
+.login a:hover {
+    color: #f39c12;
 }
