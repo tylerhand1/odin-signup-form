@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-    overflow-y: none;
 }
 
 html, body {
@@ -16,6 +15,7 @@ body {
     background-color: #2d3436;
     color: #ecf0f1;
 }
+
 a {
     text-decoration: none;
     color: #2980b9;
@@ -27,9 +27,12 @@ a:hover {
 
 .picture {
     position: relative;
+    top: 0;
+    bottom: 0;
     text-align: center;
     width: 460px;
     min-height: 100%;
+    height: 955px;
     background-image: url('./background-img.jpg');
     background-repeat: no-repeat;
     background-position: center;
