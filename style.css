@@ -26,13 +26,13 @@ a:hover {
 }
 
 .picture {
-    position: relative;
+    position: fixed;
     top: 0;
     bottom: 0;
     text-align: center;
-    width: 460px;
-    min-height: 100%;
-    height: 955px;
+    min-width: 460px;
+    max-width: 460px;
+    height: 100vh;
     background-image: url('./background-img.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -93,7 +93,8 @@ a:hover {
 }
 
 main {
-    width: 100%;
+    width: calc(100% - 460px);
+    margin-left: 460px;
 }
 
 .form-content {
